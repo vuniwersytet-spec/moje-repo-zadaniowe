@@ -1,0 +1,58 @@
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #f0fdf4;
+    color: #064e3b;
+    margin: 40px;
+    padding: 0;
+}
+
+.cv-container {
+    background-color: #ffffff;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 30px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #16a34a;
+}
+
+h1 {
+    color: #15803d;
+    font-size: 36px;
+}
+
+h2 {
+    color: #16a34a;
+    border-bottom: 3px dashed #16a34a;
+    padding-bottom: 8px;
+}
+
+article {
+    background-color: #dcfce7;
+    margin: 15px 0;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+a {
+    color: #15803d;
+    text-decoration: none;
+    font-style: italic;
+}
+
+footer {
+    text-align: left;
+    margin-top: 40px;
+    padding-left: 20px;
+}
