@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie 8 - Backend</title>
+</head>
+<body>
+    <h1>Wyślij dane na serwer</h1>
+    
+    <form id="formularz-kontaktowy">
+        <label for="imie">Imię:</label>
+        <input type="text" id="imie" name="imie" required>
+        <br><br>
+        
+        <label for="wiadomosc">Wiadomość:</label>
+        <textarea id="wiadomosc" name="wiadomosc" required></textarea>
+        <br><br>
+        
+        <button type="submit">Wyślij POST</button>
+    </form>
+
+    <p id="komunikat-potwierdzenia"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
